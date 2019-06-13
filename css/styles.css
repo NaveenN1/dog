@@ -1,0 +1,163 @@
+#title{
+  background-color:#ff4c68;
+  color: #fff;
+}
+/*
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+*/
+#n1{
+  margin-bottom:100px;
+}
+#h_1{
+    font-family: 'Montserrat-bold', sans-serif;
+    font-size:3.5rem;
+    padding-left: 10px;
+    line-height:1.5;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+#mob{
+  padding:2%;
+  margin:4.5% 0;
+  transform: rotate(25deg);
+  position: absolute;
+}
+body{
+    font-family: 'Montserrat-dark', sans-serif;
+}
+.my_nav{
+  font-size: 2.0rem;
+  font-family:'ubuntu';
+  padding: 0px;
+}
+.i{
+  padding:0 18px;
+}
+.b{
+  margin:5% 3% 5% 0;
+}
+@media (max-width:1000px){
+#mob{
+  padding:2%;
+  margin:4.5% 0;
+  position: static;
+  transform: rotate(0deg);
+  text-align: center;
+}
+#h_1{
+  text-align: center;
+}
+
+}
+
+/* Feautures */
+#features{
+  font-family:'Montserrat-bold', sans-serif;
+  padding:7% 13%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  color:black;
+}
+h3{
+  font-size: 25px;
+}
+.co{
+  text-align: center;
+  padding: 5%;
+}
+.ic{
+  margin: 3% 0 3% 0;
+  margin-bottom: 2rem;
+  color:#ef8172;
+}
+.ic:hover{
+  color:#ff4c68;
+}
+
+/*testimonial*/
+
+#testimonials{
+  background-color: #ef8172;
+  text-align: center;
+  font-family:'Montserrat-bold', sans-serif;
+  color:white;
+}
+#dogimg{
+  width: 20%;
+  border-radius: 100%;
+  padding: 4%;
+  text-align: center;
+}
+.testimonial-text{
+  padding:7% 15% 0 15%;
+
+}
+
+/*Press*/
+#press{
+  text-align: center;
+  background-color: #ef8172;
+  padding:7% 15%;
+
+}
+.imp{
+  width:15%;
+  margin: 3% 1%;
+}
+/*Pay Ment*/
+#pay-i{
+  text-align: center;
+  padding:7% 15% 7% 15%;
+  font-family:'Montserrat-bold', sans-serif;
+}
+.pay-c{
+  font-size: 40px;
+}
+.cc{
+  text-align: center;
+  padding:0% 10% 7% 10%;
+  font-family:'Montserrat-bold', sans-serif;
+}
+.bb{
+  margin-top: 16%;
+}
+.pa{
+  padding: 3% 0;
+}
+.b{
+  color:#fff;
+  width:220px;
+}
+.bo{
+  color:blue;
+    width:220px;
+}
+/*Cta*/
+#cta{
+text-align: center;
+font-family: 'Montserrat-bold', sans-serif;
+font-size: 20px;
+padding: 5% 15% 5% 15%;
+background-color: #ff4c68;
+color: white;
+}
+/*Footer*/
+#footer{
+  background-color: black;
+  color:white;
+  padding:12px 0 8px 0;
+  text-align: center;
+
+}
+.ico{
+    margin:2px;
+}
+.fb{
+  margin:2% 1% 2% 1%;
+}
+.ft{
+  color:red;
+}
